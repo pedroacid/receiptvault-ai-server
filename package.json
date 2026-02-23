@@ -1,0 +1,27 @@
+{
+  "name": "receiptvault-ai-server",
+  "version": "1.0.0",
+  "type": "module",
+
+  "engines": {
+    "node": ">=18"
+  },
+
+  "main": "server.js",
+
+  "scripts": {
+    "start": "node server.js"
+  },
+
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "openai": "^4.104.0"
+  },
+
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
